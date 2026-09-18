@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Phosphor';
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src: url('@phosphor-icons/web/regular/Phosphor.woff2') format('woff2');
+}
+
+.ph {
+  display: inline-block;
+  font-family: 'Phosphor' !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  line-height: 1;
+  speak: never;
+  text-transform: none;
+  vertical-align: -0.125em;
+}
+
+.ph::before { display: inline-block; }
+.ph-magnifying-glass::before { content: '\e30c'; }
+.ph-sun::before { content: '\e472'; }
+.ph-moon::before { content: '\e330'; }
+.ph-list::before { content: '\e2f0'; }
+.ph-x::before { content: '\e4f6'; }
+.ph-arrow-up-right::before { content: '\e092'; }
+.ph-rocket-launch::before { content: '\e3fe'; }
+.ph-arrow-left::before { content: '\e058'; }
+.ph-arrow-right::before { content: '\e06c'; }
+.ph-arrow-down::before { content: '\e03e'; }
+.ph-check-circle::before { content: '\e184'; }
+.ph-check::before { content: '\e182'; }
+.ph-copy::before { content: '\e1ca'; }
+.ph-git-branch::before { content: '\e278'; }
+.ph-arrows-clockwise::before { content: '\e094'; }
+.ph-text-aa::before { content: '\e6ee'; }
+.ph-brackets-curly::before { content: '\e860'; }
+.ph-list-bullets::before { content: '\e2f2'; }
+.ph-arrows-left-right::before { content: '\e0a0'; }
+.ph-circles-three-plus::before { content: '\e194'; }
+.ph-tree-structure::before { content: '\e67c'; }
+.ph-lightning::before { content: '\e2de'; }
+.ph-package::before { content: '\e390'; }
+.ph-file-code::before { content: '\e914'; }
+.ph-shield-check::before { content: '\e40c'; }
+.ph-cube::before { content: '\e1da'; }
+.ph-compass-tool::before { content: '\ea0e'; }
+.ph-code::before { content: '\e1bc'; }
+.ph-map-trifold::before { content: '\e31a'; }

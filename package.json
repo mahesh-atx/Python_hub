@@ -1,0 +1,21 @@
+{
+  "name": "python-practice-path",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/build-content.mjs && vite",
+    "build": "node scripts/build-content.mjs && vite build",
+    "check": "node scripts/build-content.mjs && node scripts/check-content.mjs",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@fontsource-variable/jetbrains-mono": "^5.1.1",
+    "@fontsource-variable/manrope": "^5.1.1",
+    "@phosphor-icons/web": "^2.1.1",
+    "@tailwindcss/vite": "^4.1.13",
+    "marked": "^15.0.12",
+    "tailwindcss": "^4.1.13",
+    "vite": "^7.1.7"
+  }
+}
